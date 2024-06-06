@@ -1,4 +1,5 @@
 import React from 'react'
+// import "./"
 import BuilderImg from "../assets/BuilderImg.png"
 import BuilderImg2 from "../assets/BuilderImg2.png"
 import user1 from "../assets/user1.png"
@@ -233,7 +234,7 @@ const BuildersPage = () => {
     ]
   return (
     <div className=' bg-cover bg-no-repeat' style={{ backgroundImage: `url(${MainBG3})`}}>
-      <img className='object-fill w-full'  src={BuilderImg2}></img>
+      <img className='object-fill w-full'     src={BuilderImg2}></img>
       <div className='m-10 mb-[12rem]'>
         <p className='text-[3.5rem] font-medium text-customBrightBlue ml-[5rem] mt-[7rem] mb-10'>Participants</p>
         <div className='flex justify-center items-center gap-10'>
